@@ -1,0 +1,34 @@
+
+$inline-block: inline-block;
+$size-2: 2%;
+$border: 2px dotted black;
+
+.background-color {
+  display: $inline-block;
+  border: $border;
+  text-align: center;
+}
+
+.text-color {
+  display: $inline-block;
+  margin-bottom: $size-2;
+  margin-left: $size-2;
+  border: $border;
+  text-align: center;
+}
+
+.font-text {
+  display: $inline-block;
+  margin-bottom: $size-2;
+  margin-left: $size-2;
+  border: $border;
+  text-align: center;
+}
+
+.font-size {
+  display: $inline-block;
+  margin-bottom: $size-2;
+  margin-left: $size-2;
+  border: $border;
+  text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Control work</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link type="text/css" rel="stylesheet" href="https://docs.handsontable.com/0.16.1/bower_components/handsontable/dist/handsontable.full.min.css">
+	<script type="text/javascript" src="main.js"></script>
+	<script src="https://docs.handsontable.com/0.16.1/scripts/jquery.min.js"></script>
+	<script src="https://docs.handsontable.com/0.16.1/bower_components/handsontable/dist/handsontable.full.js"></script>
+</head>
+<body>
+	<div class="background-color">
+		<h5> Background color </h5>
+		<button class="green" onclick="changeBackground('green')">Green</button>
+		<button class="red" onclick="changeBackground('red')">Red</button>
+		<button class="blue" onclick="changeBackground('orange')">Blue</button>
+	</div>
+	<div class="text-color">
+		<h5> Text color </h5>
+		<button class="green" onclick="changeColor('green')">Green</button>
+		<button class="red" onclick="changeColor('red')">Red</button>
+		<button class="blue" onclick="changeColor('blue')">Blue</button>
+	</div>
+
+	<div class="font-text">
+		<h5> Font text </h5>
+		<button onclick="changeFont('Impact')">Impact</button>
+		<button onclick="changeFont('Serif')">Serif</button>
+		<button onclick="changeFont('Arial')">Arial</button>
+	</div>
+
+	<div class="font-size">
+		<h5> Font size </h5>
+		<button onclick="changeSize('14px')">14px</button>
+		<button onclick="changeSize('16px')">16px</button>
+		<button onclick="changeSize('20px')">20px</button>
+	</div>
+	
+	<div id="example" class="hot handsontable htRowHeaders htColumnHeaders"></div>
+</body>
+</html>
